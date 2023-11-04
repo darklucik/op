@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.companyOper {
+    margin: 150px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phoneNumber input {
+    outline: none;
+    width: 260px;
+    border-radius: 12px;
+    border: 1px solid white;
+    height: 50px;
+    font-size: 24px;
+    padding: 20px;
+}
+#codeNum {
+    width: 100px;
+}
+.phoneNumber span {
+    font-size: 24px;
+}
+.companyOper button {
+    margin: 30px 0;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    font-size: 24px;
+    background-color: yellow;
+    color: white;
+}
+
+.companyOper p {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
