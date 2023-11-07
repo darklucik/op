@@ -15,10 +15,11 @@ function codeOper() {
     if(code==33) {
         document.getElementById("compOper").innerHTML = "Humans"
     }
+     if(code==99 || code==77) {
+        document.getElementById("compOper").innerHTML = "Uzmobile GSM"
+    }
     if(code==95) {
         document.getElementById("compOper").innerHTML = "Uzmobile"
     }
-    if(code==99 || code==77) {
-        document.getElementById("compOper").innerHTML = "Uzmobile GSM"
-    }
+   
 }
